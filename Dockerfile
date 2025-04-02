@@ -1,4 +1,4 @@
-FROM node:18.17.1
+FROM node:18.20.8
 
 RUN apt-get update && apt-get install -y \
     libwebp-dev=1.2.4-0.2+deb12u1 \
